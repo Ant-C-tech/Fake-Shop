@@ -18,10 +18,7 @@ function App() {
           <Route path='/product/:productId' exact component={ProductDetail} />
           <Route>
             <Container>
-              {" "}
-              <Header as='h1'>
-                404 Not Found
-              </Header>
+              <Header as='h1'>404 Not Found</Header>
             </Container>
           </Route>
         </Switch>
